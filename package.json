@@ -1,0 +1,31 @@
+{
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "description": "A demo Node.js project for CI/CD with GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ekemzz/Intro-to-build-matrix-and-code-quality-checks-in-CI-with-GitHub-workflow.git"
+  },
+  "keywords": [
+    "ci",
+    "cd",
+    "github-actions",
+    "eslint",
+    "jest",
+    "nodejs"
+  ],
+  "author": "Ekemini Udoetuk",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
